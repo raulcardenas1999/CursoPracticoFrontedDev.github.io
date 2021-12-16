@@ -1,0 +1,11 @@
+.cards-container{
+    grid-template-columns: repeat(auto-fill,140px); /* Le indica a la web que se generen las columnas necesarias con ese tamaño */
+    gap: 26px;
+}
+.product-card{
+    width: 140px;
+}
+.product-card img{
+    width: 140px;
+    height: 140px;
+}
