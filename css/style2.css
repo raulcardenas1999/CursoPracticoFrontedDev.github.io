@@ -1,0 +1,65 @@
+:root{
+    /* Colores */
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 1.4rem;
+    --md: 1.6rem;
+    --lg: 1.8rem;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--hospital-green);
+    padding-bottom: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.cards-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,240px);
+    place-content: center;
+    gap: 150px;
+    padding: 0px 50px;
+}
+.cards-main{
+    display: flex;
+    justify-content: center;
+    background-color: var(--very-light-pink);
+}
+.product-card button{
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px -5px teal;
+}
+.product-card button a{
+    text-decoration: none;
+    color: var(--black);
+    padding: 25px;
+}
